@@ -3,7 +3,7 @@ package com.syntax.class11;
 //Creating an Phone class
 public class Phone {
 	/*
-	 * HOMEWORK 01. Create a Class “Phone”. Create 3 Objects of it: iPhone, Android, Nokia with
+	 * HOMEWORK 01.Class 11 // Create a Class “Phone”. Create 3 Objects of it: iPhone, Android, Nokia with
 	 * specific attributes and behaviors.
 	 */
 

@@ -3,7 +3,7 @@ package com.syntax.class11;
 public class DogsClassObjects {
 
 	/*
-	 * HOMEWORK 02. Create a Dog Class and create 3 different objects of it: Husky, Bulldog,
+	 * HOMEWORK 02.Class 11 // Create a Dog Class and create 3 different objects of it: Husky, Bulldog,
 	 * Labrador with specific attributes and behaviors.
 	 */
 	String name;
