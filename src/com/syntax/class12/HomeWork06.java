@@ -22,5 +22,6 @@ public class HomeWork06 {
 		}
 		
 		System.out.println(grade);
+
 	}
 }

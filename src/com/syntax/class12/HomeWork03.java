@@ -16,7 +16,8 @@ public class HomeWork03 {
 			}else if(country.equalsIgnoreCase("France")){
 				System.out.println("Bonjour");
 			}else {
-				System.out.println("Please try again and enter another name");
+				System.out.println("Try again and enter another name of country");
 			}
+		
 	}
 }

@@ -27,5 +27,6 @@ public class HomeWork01 {
 		System.out.print("The largest number is: ");
 		int large = larger.getLarge(num1, num2);
 		System.out.println(large);
+		
 	}
 }

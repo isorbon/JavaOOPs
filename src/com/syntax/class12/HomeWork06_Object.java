@@ -14,7 +14,6 @@ public class HomeWork06_Object {
 		
 		System.out.print("Your Grade is ");
 		studentGrade.getGrade(gr);
-		//System.out.println(studentGrade.grade);
 		
 	}
 

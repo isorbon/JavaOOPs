@@ -17,5 +17,6 @@ public class HomeWork04 {
 		HomeWork04 eMail = new HomeWork04();
 		String emailAddress = eMail.createEmail("John", "Snow", "gmail");
 		System.out.println(emailAddress);
+		
 	}
 }

@@ -23,5 +23,6 @@ public class HomeWork02 {
 		int num = inp.nextInt();
 		
 		evenOdd.numbers(num);
+		
 	}
 }

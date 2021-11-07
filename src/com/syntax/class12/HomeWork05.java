@@ -32,5 +32,6 @@ public class HomeWork05 {
 		System.out.print("Enter a number to check it is Prime or not: ");
 		int num = inp.nextInt();
 		numberPrime.methodPrime(num, true);
+		
 	}
 }	
