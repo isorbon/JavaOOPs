@@ -13,7 +13,7 @@ public class HomeWork06_Object {
 		int gr = inp.nextInt();
 		
 		System.out.print("Your Grade is ");
-		studentGrade.getGrade(gr);
+		System.out.print(studentGrade.getGrade(gr));
 		
 	}
 

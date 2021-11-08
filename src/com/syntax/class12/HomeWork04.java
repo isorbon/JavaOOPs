@@ -8,15 +8,14 @@ public class HomeWork04 {
 	 */
 	
 	String createEmail(String userName, String lastName, String email) {
-		return "johnsnow@gmail.com";
+		return userName+lastName+"@"+email+".com";
 	}
 	
 	public static void main(String[] args) {
 		//Created Object of HomeWork04 class
 		
 		HomeWork04 eMail = new HomeWork04();
-		String emailAddress = eMail.createEmail("John", "Snow", "gmail");
-		System.out.println(emailAddress);
+		System.out.println(eMail.createEmail("John", "Snow", "gmail"));
 		
 	}
 }
