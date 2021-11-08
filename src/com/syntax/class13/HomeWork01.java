@@ -16,15 +16,16 @@ public class HomeWork01 {
 		String nameDad = inp.next();
 		System.out.print("Boy or Girl: ");
 		String gender = inp.next();
-		
-		if(gender.equalsIgnoreCase("boy")) {
-			System.err.println("Suggested baby name: " + nameDad.substring(0, 3) + nameMom.substring(nameMom.length()-3));
-		}else if(gender.equalsIgnoreCase("girl")) {
-			System.out.println("Suggested baby name: " + nameMom.substring(0, 2) + nameDad.toLowerCase().substring(nameDad.length()-4));
-		}else {
+
+		if (gender.equalsIgnoreCase("boy")) {
+			System.err.println(
+					"Suggested baby name: " + nameDad.substring(0, 3) + nameMom.substring(nameMom.length() - 3));
+		} else if (gender.equalsIgnoreCase("girl")) {
+			System.out.println("Suggested baby name: " + nameMom.substring(0, 2)
+					+ nameDad.toLowerCase().substring(nameDad.length() - 4));
+		} else {
 			System.out.println("Please try again and enter a correct gender");
 		}
-		
 
 	}
 

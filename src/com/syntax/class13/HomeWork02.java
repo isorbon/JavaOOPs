@@ -19,11 +19,11 @@ public class HomeWork02 {
 				int len = str.length();
 				int middle = len / 2;
 				System.out.println("The character in the middle is: " + str.charAt(middle));
-			}else {
-				System.out.println("Enter another word");
+			} else {
+				System.out.println("Your word has an even number of characters or less than 3. Enter another word");
 			}
 		}
-		
+
 	}
 
 }

@@ -8,7 +8,6 @@ public class HomeWork03 {
 		/*
 		 * Create a String and print it in reverse order (Sunday → yadnuS).
 		 */
-
 		Scanner inp = new Scanner(System.in);
 		System.out.print("Enter a word: ");
 		String str = inp.next();
