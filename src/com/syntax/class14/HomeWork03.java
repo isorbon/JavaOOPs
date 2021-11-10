@@ -11,5 +11,4 @@ public class HomeWork03 {
 		String[] str = a.split("[?]");
 		System.out.println(str.length);
 	}
-
 }

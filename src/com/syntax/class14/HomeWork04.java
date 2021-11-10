@@ -11,5 +11,4 @@ public class HomeWork04 {
 			System.out.print(str.charAt(i));
 		}
 	}
-
 }

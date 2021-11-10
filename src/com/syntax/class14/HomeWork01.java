@@ -16,5 +16,4 @@ public class HomeWork01 {
 		System.out.println(str.replaceAll(" ", ""));
 
 	}
-
 }

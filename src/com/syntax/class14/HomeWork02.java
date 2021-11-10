@@ -12,5 +12,4 @@ public class HomeWork02 {
 		System.out.println(str.replaceAll("[^a-zA-Z]", "").length());
 
 	}
-
 }

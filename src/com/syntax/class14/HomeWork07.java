@@ -8,8 +8,6 @@ public class HomeWork07 {
 		String str1 = "Java world";
 		String str2 = "I like";
 
-		// a=a+b; b=a-b; a=a-b;
-		
 		str1 = str1 + str2; // Java world I like
 		str2 = str1.substring(0, (str1).length() - str2.length()); // Java world
 		str1 = str1.substring(str2.length()); // I like

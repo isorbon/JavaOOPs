@@ -22,5 +22,4 @@ public class HomeWork06_Palindrome {
 		}
 
 	}
-
 }
