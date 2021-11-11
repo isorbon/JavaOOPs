@@ -20,7 +20,7 @@ public class HW_Students_Objects {
 		stud3.studentID = 98243;
 		stud3.numberOfStudents ++;
 		
-		System.out.println(stud3.numberOfStudents);
+		System.out.println("The total number of students: " + stud3.numberOfStudents);
 	
 	}
 
