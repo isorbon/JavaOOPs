@@ -21,6 +21,7 @@ public class HW_Students_Objects {
 		stud3.numberOfStudents ++;
 		
 		System.out.println(stud3.numberOfStudents);
+	
 	}
 
 }

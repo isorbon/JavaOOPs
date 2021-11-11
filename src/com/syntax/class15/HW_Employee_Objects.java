@@ -3,7 +3,7 @@ package com.syntax.class15;
 public class HW_Employee_Objects {
 
 	public static void main(String[] args) {
-		// Two Objects of the HW_Employee class
+		// Two Objects of the HW_Employee class 
 		
 		HW_Employee emp1 = new HW_Employee();
 		emp1.eID = 405713;
