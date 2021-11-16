@@ -10,7 +10,6 @@ public class BookHW {
     private int year;
 
     public BookHW() {
-
     }
 
     public BookHW(String name, String author, String genre, int year) {
