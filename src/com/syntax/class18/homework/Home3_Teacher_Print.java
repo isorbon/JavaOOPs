@@ -11,7 +11,9 @@ public class Home3_Teacher_Print {
         obj.experience();
         obj.goodMath();
         obj.masterMath();
+
         System.out.println("-------------------------");
+
         Home3_ChemistryTeacher obj2 = new Home3_ChemistryTeacher();
         obj2.name = "Emma";
         obj2.age = 25;
@@ -21,7 +23,9 @@ public class Home3_Teacher_Print {
         obj2.experience();
         obj2.works();
         obj2.educate();
+
         System.out.println("-------------------------");
+
         Home3_PianoTeacher obj3 = new Home3_PianoTeacher();
         obj3.name = "Ann";
         obj3.experienceYear = 23;

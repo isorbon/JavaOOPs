@@ -7,5 +7,4 @@ public class Home1_Tester {
         obj.class_b();
         obj.class_c();
     }
-
 }

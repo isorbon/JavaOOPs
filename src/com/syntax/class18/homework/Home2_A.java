@@ -7,4 +7,5 @@ public class Home2_A {
     static void printF(){
         System.out.println("Class A");
     }
+
 }
