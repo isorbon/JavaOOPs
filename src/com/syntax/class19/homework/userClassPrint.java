@@ -6,4 +6,5 @@ public class userClassPrint {
         userInfo.userAddress = "23117 83rd Ave W, Edmonds, WA, 98026";
         userInfo.userDetails();
     }
+
 }

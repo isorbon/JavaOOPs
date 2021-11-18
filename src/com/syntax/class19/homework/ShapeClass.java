@@ -15,6 +15,7 @@ class CircleClass extends ShapeClass{
     CircleClass(double radius) {
         super(radius);
     }
+
     void calculate() {
         double area = Math.PI * super.radius * super.radius;
         System.out.println("The area of circle with radius: " + radius + " is " + area);

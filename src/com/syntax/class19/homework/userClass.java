@@ -20,8 +20,8 @@ class userInfo extends userClass {
     userInfo(String name, long mobileNumber) {
         super(name, mobileNumber);
     }
+
     void userDetails() {
-        System.out.println("Name: " + name + "; Mobile number: " + mobileNumber +
-                "; Address: " + userAddress);
+        System.out.println("Name: " + name + "; Mobile number: " + mobileNumber + "; Address: " + userAddress);
     }
 }

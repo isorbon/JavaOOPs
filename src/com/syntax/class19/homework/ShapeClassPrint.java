@@ -5,4 +5,5 @@ public class ShapeClassPrint {
         CircleClass obj = new CircleClass(1.2);
         obj.calculate();
     }
+
 }
