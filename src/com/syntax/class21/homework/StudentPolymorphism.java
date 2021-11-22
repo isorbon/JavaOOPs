@@ -22,5 +22,6 @@ public class StudentPolymorphism {
         Student student2 = new SchoolStudent();
         SchoolStudent schoolStudent = (SchoolStudent) student2;
         schoolStudent.subject();
+
     }
 }
