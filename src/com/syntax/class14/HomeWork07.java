@@ -12,6 +12,11 @@ public class HomeWork07 {
 		str2 = str1.substring(0, (str1).length() - str2.length()); // Java world
 		str1 = str1.substring(str2.length()); // I like
 		
+		// or do it easier 
+		str1 = str1 + str2; 
+		str2 = str1.replace(str2, ""); 
+		str1 = str1.replace(str2, ""); 
+		
 		System.out.println(str1);
 		System.out.println(str2);
 		

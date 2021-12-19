@@ -3,7 +3,7 @@ package com.syntax.TeamProject02.Task04;
 public interface WebDriver {
     void open();
     void close();
-    String getTitle(String title);
+    String getTitle();
 }
 
 interface TakesScreenshot{
@@ -25,8 +25,8 @@ class ChromeDriver implements RemoteWebDriver{
     }
 
     @Override
-    public String getTitle(String title) {
-        return title;
+    public String getTitle() {
+        return "Title from Google Chrome";
     }
 
     @Override
@@ -51,8 +51,8 @@ class FirefoxDriver implements RemoteWebDriver{
     }
 
     @Override
-    public String getTitle(String title) {
-        return title;
+    public String getTitle() {
+        return "Title from Firefox";
     }
 
     @Override
@@ -77,8 +77,8 @@ class SafariDriver implements RemoteWebDriver{
     }
 
     @Override
-    public String getTitle(String title) {
-        return title;
+    public String getTitle() {
+        return "Title from Safari";
     }
 
     @Override

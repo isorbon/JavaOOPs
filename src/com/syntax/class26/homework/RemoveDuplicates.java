@@ -15,15 +15,11 @@ public class RemoveDuplicates {
         aList.add("Jasmine");
         aList.add("Jane");
         aList.add("James");
-        aList.retainAll(aList);
 
         System.out.println(aList);
 
-        Set<String> set = new LinkedHashSet<>();
-        set.addAll(aList);
-        aList.clear();
-        aList.addAll(set);
+        Set<String> set = new LinkedHashSet<>(aList);
+        System.out.println(set);
 
-        System.out.println(aList);
     }
 }

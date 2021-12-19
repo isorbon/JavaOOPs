@@ -7,16 +7,18 @@ public class HW_05 {
      Write a logic to concatenate all string from the collection.*/
     public static void main(String[] args) {
 
-        Collection<String> obj = new LinkedList<>();
+        Set<String> obj = new LinkedHashSet<>();
         obj.add("Apple");
         obj.add("Orange");
         obj.add("Mango");
         obj.add("Lemon");
         obj.add("Coconut");
 
+        StringBuilder values = new StringBuilder();
         for (String objects:obj
              ) {
-            System.out.print(objects);
+            values.append(objects);
         }
+        System.out.println(values);
     }
 }

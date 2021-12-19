@@ -12,7 +12,7 @@ public class Cities {
       city.add("Kyiv");
       city.add("Ankara");
       city.add("Dushanbe");
-      city.add("Washington");
+      city.add("Washington DC");
       city.add("Angola");
       city.add("Berlin");
 
@@ -21,7 +21,7 @@ public class Cities {
       Iterator<String> iterator = city.iterator();
       while (iterator.hasNext()){
           String element = iterator.next();
-          if(element.toUpperCase().startsWith("A")){
+          if(element.startsWith("A")){
               iterator.remove();
           }
       }

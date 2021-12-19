@@ -1,7 +1,6 @@
 package com.syntax.class26.homework.SetCollection;
 
 import java.util.HashSet;
-import java.util.Iterator;
 
 public class Students {
     /*  Create a Set collection that will hold Objects of Student Type.
@@ -27,7 +26,7 @@ public class Students {
         student.add(new Students("Zema", 456987));
         student.add(new Students("Aysha", 321456));
         student.add(new Students("Ahmet", 369789));
-        student.add(new Students("Silav", 741321));
+        student.add(new Students("Silva", 741321));
 
         for (Students st:student
              ) {

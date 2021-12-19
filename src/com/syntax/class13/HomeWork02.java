@@ -16,8 +16,7 @@ public class HomeWork02 {
 
 		if (!str.isEmpty()) {
 			if ((str.length() % 2 != 0) && str.length() >= 3) {
-				int len = str.length();
-				int middle = len / 2;
+				int middle = str.length()/2;
 				System.out.println("The character in the middle is: " + str.charAt(middle));
 			} else {
 				System.out.println("Your word has an even number of characters or less than 3. Enter another word");

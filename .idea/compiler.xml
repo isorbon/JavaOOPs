@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/src/com/syntax/class17/Task3HW.java" />
+      <file url="file://$PROJECT_DIR$/src/com/syntax/class17/StaticConstructor.java" />
+      <file url="file://$PROJECT_DIR$/src/com/syntax/class17/Task3HW_tester.java" />
+    </excludeFromCompile>
+  </component>
+</project>

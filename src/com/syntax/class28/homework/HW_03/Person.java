@@ -19,39 +19,7 @@ public class Person {
         this.salary = salary;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
-    public String printUser() {
-        return name + " " + lastName + "'s " + age + ". The salary of " + name + " is $" + salary;
+    public void printUser() {
+        System.out.println(name+" "+lastName+" "+age+" "+salary);
     }
 }

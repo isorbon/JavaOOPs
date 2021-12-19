@@ -8,7 +8,7 @@ public class HomeWork03 {
 		 * today?" How would you find out how many sentences are in that String?
 		 */
 		String a = "Is it saturday? Is it raining? Do we have a Java Class today?";
-		String[] str = a.split("[?]");
+		String[] str = a.split("[?]"); // [?.!] - if sentence contains different char in the end
 		System.out.println(str.length);
 	}
 }

@@ -10,7 +10,7 @@ public class HW_Employee_Objects {
 		emp1.salary = 2571;
 		System.out.println("ID: " + emp1.eID);
 		System.out.println("Salary: " + emp1.salary);
-		System.out.println("CEO: " + emp1.ceo);
+		System.out.println("CEO: " + HW_Employee.ceo);
 		
 		System.out.println();
 		
@@ -19,7 +19,7 @@ public class HW_Employee_Objects {
 		emp2.salary = 3289;
 		System.out.println("ID: " + emp2.eID);
 		System.out.println("Salary: " + emp2.salary);
-		System.out.println("CEO: " + emp2.ceo);
+		System.out.println("CEO: " + HW_Employee.ceo);
 	}
 
 }

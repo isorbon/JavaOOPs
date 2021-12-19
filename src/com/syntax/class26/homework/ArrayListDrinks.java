@@ -16,13 +16,18 @@ public class ArrayListDrinks {
         drink.add("Juice");
         drink.add("Cider");
 
-        for(int i=0; i < drink.size(); i++){
-            if(drink.get(i).contains("a")){
-                drink.set(i, drink.get(i).replace("a", "water"));
-            }else if (drink.get(i).contains("e")){
-                drink.set(i, drink.get(i).replace("e", "water"));
+        for (int i = 0; i < drink.size(); i++) {
+            if (drink.get(i).toLowerCase().contains("e") || drink.get(i).toLowerCase().contains("a")) {
+                drink.set(i, "water");
             }
         }
+        // or we can write like this one
+        for (int i = 0; i < drink.size(); i++) {
+            if (drink.get(i).toLowerCase().replaceAll("[ae]", "").length() < drink.get(i).length()) {
+                drink.set(i, "Water");
+            }
+        }
+
         System.out.println(drink);
     }
 }

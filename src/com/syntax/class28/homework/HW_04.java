@@ -17,15 +17,17 @@ public class HW_04 {
         employee.put("Demir Peyman", 120130);
         employee.put("Ziyamedin Akhmedov", 110020);
 
-        Set<Map.Entry<String, Integer>> entrySet = employee.entrySet();
-        Map.Entry<String, Integer> highSalary = null;
-        for (Map.Entry<String, Integer> entry : entrySet
+        String maxSalaryEmpName = "";
+        int maxSalary = 0;
+
+        for (Map.Entry<String, Integer> emp : employee.entrySet()
         ) {
-            if (highSalary == null || entry.getValue().compareTo(highSalary.getValue()) > 0) {
-                highSalary = entry;
+            if(emp.getValue() > maxSalary) {
+                maxSalary = emp.getValue();
+                maxSalaryEmpName = emp.getKey();
             }
         }
-        System.out.println(highSalary.getKey() + "=$" + highSalary.getValue());
+        System.out.println(maxSalaryEmpName + " = $" + maxSalary);
 
     }
 }

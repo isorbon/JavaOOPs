@@ -31,6 +31,7 @@ public class PersonTester {
             sdetInstruction.sleep();
             sdetInstruction.work();
             sdetInstruction.sleep();
+            sdetInstruction.tech();
         }
     }
 }

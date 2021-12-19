@@ -22,13 +22,14 @@ public class HW_01 {
            ) {
           System.out.println(entry.getKey() + " - " + entry.getValue());
       }
-
+      System.out.println("-----------------------");
       //print all keys and values by Iterator
       Iterator<Map.Entry<String,String>> iter = countryCapital.entrySet().iterator();
       while (iter.hasNext()){
           Map.Entry<String,String> entry = iter.next();
+          System.out.println(entry.getKey() + " - " + entry.getValue());
       }
-      System.out.println(countryCapital);
+      System.out.println("-----------------------");
 
       //print all values by Collection
       Collection<String> values = countryCapital.values();

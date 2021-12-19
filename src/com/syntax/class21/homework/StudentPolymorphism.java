@@ -8,20 +8,18 @@ public class StudentPolymorphism {
              ) {
             student.knowledge();
             student.study();
+
+            if(student instanceof SyntaxStudent){
+                ((SyntaxStudent)student).term();
+                ((SyntaxStudent)student).tester();
+            }
+            if(student instanceof CollegeStudent){
+                ((CollegeStudent)student).age();
+            }
+            if(student instanceof SchoolStudent){
+                ((SchoolStudent)student).subject();
+            }
         }
-
-        Student student = new SyntaxStudent();
-        SyntaxStudent syntaxStudent = (SyntaxStudent) student;
-        syntaxStudent.term();
-        syntaxStudent.tester();
-
-        Student student1 = new CollegeStudent();
-        CollegeStudent collegeStudent = (CollegeStudent) student1;
-        collegeStudent.age();
-
-        Student student2 = new SchoolStudent();
-        SchoolStudent schoolStudent = (SchoolStudent) student2;
-        schoolStudent.subject();
 
     }
 }

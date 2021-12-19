@@ -1,7 +1,6 @@
 package com.syntax.class26.homework.Insurance;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class InsuranceObjects {
     public static void main(String[] args) {
@@ -15,6 +14,5 @@ public class InsuranceObjects {
             ins.getQuote();
             ins.cancelInsurance();
         }
-
     }
 }

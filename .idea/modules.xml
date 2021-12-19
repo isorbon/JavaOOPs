@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JavaBasics/JavaBasics.iml" filepath="$PROJECT_DIR$/../JavaBasics/JavaBasics.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaOOPs.iml" filepath="$PROJECT_DIR$/JavaOOPs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../JavaReview/JavaReview.iml" filepath="$PROJECT_DIR$/../JavaReview/JavaReview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gitHomeWork/gitHomeWork.iml" filepath="$PROJECT_DIR$/../gitHomeWork/gitHomeWork.iml" />
     </modules>
   </component>
 </project>

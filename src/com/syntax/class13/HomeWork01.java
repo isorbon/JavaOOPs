@@ -26,7 +26,22 @@ public class HomeWork01 {
 		} else {
 			System.out.println("Please try again and enter a correct gender");
 		}
-
+			
+		// Asghar done 
+		
+		String fathersName="Daniel"; //7/2=>3
+		String mothersName="Mary"; //2
+		String isBoyGirl="girl";
+		if(isBoyGirl.equalsIgnoreCase("Boy")) {
+			String firstPart=fathersName.substring(0,fathersName.length()/2);
+			String secondPart=mothersName.substring(mothersName.length()/2);
+			System.out.println(firstPart+secondPart);
+		}else {
+			String firstPart=mothersName.substring(0,fathersName.length()/2);
+			String secondPart=fathersName.substring(mothersName.length()/2);
+			System.out.println(firstPart+secondPart);
+		}
+		
 	}
 
 }

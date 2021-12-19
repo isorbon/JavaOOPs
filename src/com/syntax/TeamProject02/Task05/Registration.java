@@ -17,7 +17,7 @@ public class Registration {
     }
 
     public void setEmail(String email) {
-        if (email.contains("@yahoo.com")) {
+        if (email.toLowerCase().contains("@yahoo.com")) {
             System.out.println("Your email: " + (this.email = email));
         } else {
             System.out.println("Valid email address only counts on Yahoo!");

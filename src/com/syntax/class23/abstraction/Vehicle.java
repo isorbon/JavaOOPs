@@ -1,12 +1,12 @@
 package com.syntax.class23.abstraction;
 
 public abstract class Vehicle {
-    // abstract String vin_number; abstract not allowed with fields
+    // abstract String vin_number; abstract keyword not allowed with fields
     String vinNumber;
     static int totalVehicles;
 
     /*abstract  Vehicle(){
-        abstract not allowed with Constructors
+        abstract keyword not allowed with Constructors
     }*/
     Vehicle(String vinNumber) {
         totalVehicles++;

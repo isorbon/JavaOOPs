@@ -17,9 +17,19 @@ public class ArrayListCars {
         ) {
             System.out.print(str + " ");
         }
+        for (int i = 0; i < car.size(); i++) {
+            System.out.println(car.get(i) + " has " + car.get(i).length() + " characters");
+        }
+
+        int i=0;
+        while (i<car.size()){
+            System.out.println(car.get(i));
+            i++;
+        }
+
         // 3-rd way
         Iterator<String> iterator = car.iterator();
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next() + " ");
         }
     }

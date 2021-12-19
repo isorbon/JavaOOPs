@@ -8,27 +8,27 @@ public class Task3HW {
      * class inside different package and observe result.
      */
 
-    /*
-    private Task3HW(String pass) {
-        System.out.println("private constructor");
+    private Task3HW(){
+        System.out.println("private");
     }
 
-    public Task3HW(String username) {
-        System.out.println("public constructor");
+    Task3HW(String name){
+        System.out.println("default");
     }
 
-    Task3HW(int age) {
-        System.out.println("default constructor");
+    protected Task3HW(int age){
+        System.out.println("protected");
     }
 
-    protected Task3HW(String place) {
-        System.out.println("protected constructor");
+    public Task3HW(double weigth){
+        System.out.println("public");
     }
 
     public static void main(String[] args) {
-        private new Task3HW("123password");
-        public new Task3HW("username");
-        new Task3HW(28);
+        new Task3HW();
+        new Task3HW("name");
+        new Task3HW(10);
+        new Task3HW(42.2);
     }
-     */
+
 }

@@ -21,5 +21,15 @@ public class HomeWork06_Palindrome {
 			System.out.println(str + " is not Palindrome");
 		}
 
+		// or do with StringBuilder class like this:
+		
+		StringBuilder strB = new StringBuilder(str);
+		strB.reverse();
+		if (str.equals(strB.toString())) {
+			System.out.println(str + " is palindrome");
+		} else {
+			System.out.println(str + " is Not palindrome");
+		}
+
 	}
 }

@@ -22,5 +22,17 @@ public class HW_6 {
         }
         System.out.println("Sum of all integer: " + sum);
 
+
+      /*  for (String key: objects.keySet()
+        ) {
+            System.out.print(key);
+        }
+
+        System.out.println();
+
+        for (String value: objects.values()
+        ) {
+            System.out.print(value);
+        } */
     }
 }

@@ -59,5 +59,5 @@ class SchoolStudent extends Student{
     void subject(){
         System.out.println("a School student learns fundamental things.");
     }
-    
+
 }
