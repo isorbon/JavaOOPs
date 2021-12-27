@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class ExcelDemo6 {
     public static void main(String[] args) throws IOException {
-        String path = "F:\\TESTER\\JAVA\\Class 30\\NewFile.xlsx";
+        String path = "F:\\SDET\\JAVA\\Class 30\\NewFile.xlsx";
         List<Map<String,String>> excelData = ExcelReader.read(path);
         System.out.println(excelData); // getting all data from excel
         System.out.println(excelData.get(1).get("LastName")); // getting particular value (Sorbon)

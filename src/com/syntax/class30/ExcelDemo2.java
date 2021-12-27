@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class ExcelDemo2 {
     public static void main(String[] args) throws IOException {
-        String path = "F:\\TESTER\\JAVA\\Class 30\\NewFile.xlsx";
+        String path = "F:\\SDET\\JAVA\\Class 30\\NewFile.xlsx";
         FileInputStream fileInputStream = new FileInputStream(path);
         XSSFWorkbook xssfWorkbook = new XSSFWorkbook(fileInputStream);
 
@@ -18,7 +18,7 @@ public class ExcelDemo2 {
         System.out.println(noOfRows);
 
         // we are getting all rows
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < noOfRows; i++) {
             XSSFRow row = sheet1.getRow(i);
             int noCells = row.getPhysicalNumberOfCells();
 

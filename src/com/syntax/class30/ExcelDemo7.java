@@ -12,7 +12,7 @@ import java.io.IOException;
 public class ExcelDemo7 {
     public static void main(String[] args) throws IOException {
         // Path where we want to create the file
-        String path = "F:\\TESTER\\JAVA\\Class 30\\CreatedFolder\\CreatedFile.xlsx";
+        String path = "F:\\SDET\\JAVA\\Class 30\\CreatedFolder\\CreatedFile.xlsx";
         // creating the object of XSSFWorkbook
         XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
         // creating new sheet inside the file with name Sheet123
