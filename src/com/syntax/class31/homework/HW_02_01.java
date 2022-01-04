@@ -11,11 +11,11 @@ public class HW_02_01 {
        }
    }
 
-    public static void checkUserName(String username) throws Exception {
+    public static void checkUserName(String username) {
         if (username.length() < 5){
-            throw new Exception("The Username should not be less than 5 characters");
+            throw new RuntimeException("The Username should not be less than 5 characters");
         }else {
-            System.out.println("You username is correct");
+            System.out.println("Your username is correct");
         }
     }
 }

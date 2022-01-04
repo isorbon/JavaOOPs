@@ -12,6 +12,7 @@ public class ExceptionDemo4 {
             System.out.println("Yes file exists i will not be getting any errors");
             FileInputStream fileInputStream = new FileInputStream(path);
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
             System.out.println("File is not present at that location");
         }
 

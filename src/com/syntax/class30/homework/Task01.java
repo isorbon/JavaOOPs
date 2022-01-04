@@ -4,6 +4,7 @@ import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
@@ -20,16 +21,15 @@ public class Task01 {
     Read file and extract values of browser & url */
     public static void main(String[] args) throws IOException {
         Scanner inp = new Scanner(System.in);
-
+        int data = inp.nextInt();
         String path = "F:\\SDET\\JAVA\\Class 30\\CreatedFolder\\TaskFile.xlsx";
         XSSFWorkbook xssfWorkbook = new XSSFWorkbook();
-        Sheet sheet = xssfWorkbook.createSheet("TestSheet");
-        List<Map<String,String>> testData = new ArrayList<>();
+        XSSFSheet sheet = xssfWorkbook.createSheet("TestSheet");
 
+        List<Map<String, String>> testData = new ArrayList<>();
         for (int i = 0; i < 4; i++) {
-            XSSFRow row = (XSSFRow) sheet.createRow(i);
+            Row row = sheet.createRow(data);
             LinkedHashMap<String, String> hashMap = new LinkedHashMap<>();
-            String data = inp.next();
 
             hashMap.put("First", row.createCell(0).toString());
             hashMap.put("Second", row.createCell(1).toString());

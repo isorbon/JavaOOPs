@@ -23,7 +23,7 @@ public class SetDemo {
         // hashSet.remove(20);
         System.out.println(hashSet);
 
-       // hashSet.removeIf(number -> number > 10);
+       // hashSet.removeIf(number -> number > 10);  // by lambda method
 
         Iterator<Integer> iterator = hashSet.iterator();
         while (iterator.hasNext()){

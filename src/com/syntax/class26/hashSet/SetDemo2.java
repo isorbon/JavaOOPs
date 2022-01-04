@@ -19,7 +19,7 @@ public class SetDemo2 {
         ArrayList<String> arrayList = new ArrayList<>(hashSet);
         System.out.println(arrayList);
 
-        LinkedHashSet<String> hashSet2 = new LinkedHashSet<>(arrayList);
+      //  LinkedHashSet<String> hashSet2 = new LinkedHashSet<>(arrayList);
 
     }
 }
